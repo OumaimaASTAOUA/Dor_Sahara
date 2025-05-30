@@ -1,0 +1,28 @@
+;/*FB_PKG_DELIM*/
+
+__d("$InternalEnumUtils",[],(function(a,b,c,d,e,f){"use strict";var g=Object.prototype.hasOwnProperty;function a(a){return function(b){return b==null||!g.call(a,b)?null:a[b]}}var h=typeof WeakMap==="function"?new WeakMap():new Map();function b(a){return function(b){if(b==null)return null;var c=h.get(a);c==null&&(c=new Map(Object.getOwnPropertyNames(a).map(function(b){return[a[b],b]})),h.set(a,c));return(c=c.get(b))!=null?c:null}}f.createToJSEnum=a;f.createFromJSEnum=b}),66);
+__d("CometFeedStoryDynamicResolutionPhotoAttachmentRenderer_experimentWidth.relayprovider",["qex"],(function(a,b,c,d,e,f,g){"use strict";a={get:function(){var a;return(a=c("qex")._("1576"))!=null?a:500}};g["default"]=a}),98);
+__d("CometImmersivePhotoCanUserDisable3DMotion.relayprovider",["gkx"],(function(a,b,c,d,e,f,g){"use strict";a={get:function(){return c("gkx")("1872")}};g["default"]=a}),98);
+__d("CometUFIReactionsEnableShortName.relayprovider",[],(function(a,b,c,d,e,f){"use strict";function a(){return!1}f.get=a}),66);
+__d("CometUFIShareActionMigration.relayprovider",["gkx"],(function(a,b,c,d,e,f,g){"use strict";a={get:function(){var a;return(a=c("gkx")("2411"))!=null?a:!1}};g["default"]=a}),98);
+__d("CometUFI_dedicated_comment_routable_dialog_gk.relayprovider",["gkx"],(function(a,b,c,d,e,f,g){"use strict";a={get:function(){return c("gkx")("13962")}};g["default"]=a}),98);
+__d("FBReelsIFUTileContent_reelsIFUPlayOnHover.relayprovider",["qex"],(function(a,b,c,d,e,f,g){"use strict";a={get:function(){return c("qex")._("3296")===!0}};g["default"]=a}),98);
+__d("FBReelsMediaFooter_comet_enable_reels_ads_gk.relayprovider",["gkx"],(function(a,b,c,d,e,f,g){"use strict";a={get:function(){return c("gkx")("7085")}};g["default"]=a}),98);
+__d("FBReels_deprecate_short_form_video_context_gk.relayprovider",["gkx"],(function(a,b,c,d,e,f,g){"use strict";a={get:function(){return c("gkx")("10255")}};g["default"]=a}),98);
+__d("FriendingCometRootContentQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="9103543533085580"}),null);
+__d("MetaConfig",["invariant","BanzaiLazyQueue","ExecutionEnvironment","MetaConfigMap"],(function(a,b,c,d,e,f,g,h){"use strict";var i,j={};a={_:function(a){var b=c("MetaConfigMap").get(a);b!=null||h(0,57910,a);var e=b.value;b=b.log_id;b!=null&&j[a]!==!0&&((i||(i=c("ExecutionEnvironment"))).isInBrowser&&d("BanzaiLazyQueue").queuePost("metaconfig_exposure",{identifier:a,log_id:b}),j[a]=!0);return e}};b=a;g["default"]=b}),98);
+__d("GHLShouldChangeAdIdFieldName.relayprovider",["MetaConfig"],(function(a,b,c,d,e,f,g){"use strict";function a(){return c("MetaConfig")._("103")&&c("MetaConfig")._("164")}g.get=a}),98);
+__d("GHLShouldChangeSponsoredDataFieldName.relayprovider",["MetaConfig"],(function(a,b,c,d,e,f,g){"use strict";function a(){return c("MetaConfig")._("34")&&c("MetaConfig")._("70")}g.get=a}),98);
+__d("GroupsCometGroupChatLazyLoadLastMessageSnippet.relayprovider",[],(function(a,b,c,d,e,f){"use strict";a={get:function(){return Boolean(!1)}};f["default"]=a}),66);
+__d("IsMergQAPolls.relayprovider",["gkx"],(function(a,b,c,d,e,f,g){"use strict";a={get:function(){return c("gkx")("24565")}};g["default"]=a}),98);
+__d("IsWorkUser.relayprovider",["gkx"],(function(a,b,c,d,e,f,g){"use strict";a={get:function(){var a;return(a=c("gkx")("20836"))!=null?a:!1}};g["default"]=a}),98);
+__d("JSResource",["JSResourceReferenceImpl"],(function(a,b,c,d,e,f,g){var h={};function i(a,b){h[a]=b}function j(a){return h[a]}function a(a){a=a;var b=j(a);if(b)return b;b=new(c("JSResourceReferenceImpl"))(a);i(a,b);return b}a.loadAll=c("JSResourceReferenceImpl").loadAll;g["default"]=a}),98);
+__d("JSResourceForInteraction",["JSResource"],(function(a,b,c,d,e,f,g){function a(a){return c("JSResource").call(null,a)}b=a;g["default"]=b}),98);
+__d("react-relay/relay-hooks/NestedRelayEntryPointBuilderUtils",[],(function(a,b,c,d,e,f){"use strict";function a(a){return a}f.NestedRelayEntryPoint=a}),66);
+__d("NestedRelayEntryPointBuilderUtils",["react-relay/relay-hooks/NestedRelayEntryPointBuilderUtils"],(function(a,b,c,d,e,f){"use strict";Object.keys(importNamespace("react-relay/relay-hooks/NestedRelayEntryPointBuilderUtils")).forEach(function(a){if(a==="default"||a==="__esModule")return;f[a]=importNamespace("react-relay/relay-hooks/NestedRelayEntryPointBuilderUtils")[a]})}),null);
+__d("StoriesArmadilloReplyEnabled.relayprovider",["qex"],(function(a,b,c,d,e,f,g){"use strict";a={get:function(){var a;return(a=c("qex")._("564"))!=null?a:!1}};g["default"]=a}),98);
+__d("WebPixelRatio",["SiteData"],(function(a,b,c,d,e,f,g){function a(){return c("SiteData").pr!=null&&c("SiteData").pr>0?c("SiteData").pr:window.devicePixelRatio||1}g.get=a}),98);
+__d("WorkCometIsEmployeeGKProvider.relayprovider",["gkx"],(function(a,b,c,d,e,f,g){"use strict";a={get:function(){return c("gkx")("20861")}};g["default"]=a}),98);
+__d("createGenericCompoundEntryPointBuilder",[],(function(a,b,c,d,e,f){"use strict";function a(a,b){return function(c){return{getPreloadProps:function(a){return{entryPoints:c(a),extraProps:null,queries:b(a)}},root:a}}}f["default"]=a}),66);
+__d("isPromise",["Promise"],(function(a,b,c,d,e,f){"use strict";var g;function a(a){return a instanceof(g||(g=b("Promise")))||typeof (a==null?void 0:a.then)==="function"}f["default"]=a}),66);
+__d("randomInt",["invariant"],(function(a,b,c,d,e,f,g,h){function a(a,b){a=b===void 0?[0,a]:[a,b];b=a[0];a=a[1];a>b||h(0,1180,a,b);return Math.floor(b+Math.random()*(a-b))}g["default"]=a}),98);
